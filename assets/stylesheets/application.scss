@@ -17,9 +17,10 @@ body {
   justify-content: center;
 }
 
-#root > div {
+#root > div{
   margin-top: 20px;
   display: flex;
+  width: 100%;
 }
 
 .map-container {
@@ -39,6 +40,9 @@ body {
     width: calc(50% - 10px);
     margin-right: 10px;
     margin-bottom: 10px;
+  }
+  .inner{
+    width: 100%
   }
 }
 
