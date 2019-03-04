@@ -23,10 +23,10 @@ class App extends Component {
     // console.log(flats[index].lat);
     this.setState({
       marker: {
-        // lat: flats[index].lat,
-        // lng: flats[index].lat,
-        lat: 48.953410,
-        lng: 2.3488000
+        lat: flats[index].lat,
+        lng: flats[index].lng
+        // lat: 48.953410,
+        // lng: 2.3488000
       },
     });
   }
